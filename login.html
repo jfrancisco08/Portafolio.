@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="style/registro.css">
+    <link rel="stylesheet" href="style/estilos.css">
+
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="img/logo JF color.png" alt="Logo">
+      <h1 class="nombre" style="font-size: 25px;">José francisco</h1>
+  </a>
+    <center>
+        <nav>
+          <a href="registro.html" class="nav-link">Registrarse</a>
+        </nav>
+      </center>
+      </header>
+<br>
+    <form method="post" action="login.php">
+        <center><h2>Iniciar sesión</h2></center>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" required><br><br>
+        <input type="submit" value="Entrar">
+    </form>
+</body>

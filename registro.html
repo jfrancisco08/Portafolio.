@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro JF</title>
+    <link rel="stylesheet" href="style/estilos.css">
+    <link rel="stylesheet" href="style/registro.css">
+ </head>
+ <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo JF color.png" alt="Logo">
+        <h1 class="nombre" style="font-size: 25px;">José francisco</h1>
+    </a>
+        <center>
+            <nav>
+              <a href="index.html" class="nav-link">Volver</a>
+            </nav>
+          </center>
+          </header>
+
+  <form action="registro.php" name="jfweb" method="post">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+
+    <label for="telefono">Telefono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <label for="lugar">Lugar:</label>
+    <input type="text" id="lugar" name="lugar" required>
+
+    <input type="submit" value="Registrar">
+    
+  </form>
+</body>
